@@ -1,4 +1,6 @@
-
+*{
+  margin-left: 20px;
+}
 .Fira-sans {
   font-family: "Fira-sans", serif;
   font-optical-sizing: auto;
@@ -361,4 +363,149 @@ align-items: center;
     width: 408px;
     height: 306px;
     }
-    
+    .donate{
+      margin-top: 80px;
+      }
+     .donate-h{
+      font-weight: bold;
+      font-size: 40px;
+      text-align: center;
+      }
+      .donate-p{
+      color: rgba(14, 14, 14, 0.7);
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+      }
+      .donate-btn{
+      width: 1071px;
+      height: 128px;
+      align-items: center;
+      display: flex;
+      justify-content:space-around;
+      margin-right: 50px;
+      margin-left: 200px;
+      }
+      .t-btn{
+      font-weight: bold;
+      font-size: 40px;
+      width: 184px;
+      height: 48px;
+      text-align: center;
+      }
+      .d-btn{
+      width: 240px;
+      height: 128px;
+      background-color:rgba(255, 255, 255, 1);
+       border-radius: 16px; 
+      margin: 22px;
+      display: flex inline;
+      align-items: center;
+      box-shadow: 0px 6px 50px 0px  rgba(14, 14, 14, 0.15);
+      border: none;
+      }
+      .d-btn:hover{
+      background-color: rgba(198, 228, 214, 1);
+      }
+      
+    #taka{
+      width: 1032px;
+      height: 64px;
+      background-color:rgba(255, 255, 255, 1);
+      align-items: center;
+      display: flex;
+      margin-right: 30px;
+      margin-left: 220px;
+      margin-top: 25px;
+      text-align: center;
+      box-shadow: 0px 6px 50px 0px  rgba(14, 14, 14, 0.15);
+      border: none;
+      }
+      .dnt-btn{
+      width: 151px;
+      height: 56px;
+      background-color: rgb(13, 79, 63);
+      margin-left: 650px;
+      margin-top: 32px;
+      border: none;
+      border-radius: 8px;
+      }
+      #email{
+
+        width: 800px;
+        height: 55px;
+        background-color:rgba(255, 255, 255, 1);
+        align-items: center;
+        display: flex;
+        margin-right: 30px;
+        margin-left: 150px;
+        margin-top: 25px;
+        padding-left: 30px;
+        box-shadow: 0px 6px 50px 0px  rgba(14, 14, 14, 0.15);
+        border: none;
+      }
+      
+      .email{
+        display:flex;
+        align-items: center;
+        justify-items: center;
+       
+        }
+        .sub-btn{
+        background-color: rgba(0, 106, 80, 1);
+        width: 150px;
+        height: 56px;
+        border-radius: 8px;
+        border: none;
+        margin-top: 25px;
+        
+        }
+        .sub-btn:hover{
+        background-color: grey;
+        }
+        .newsltr{
+        margin-top: 80px;
+        background-color:rgba(198, 228, 214, 1);
+        width: 1280px;
+        height: 395px;
+        padding-top: 90px;
+        padding-bottom: 80px;
+        padding-right :100px;
+        padding-left: 100px;
+        border-radius: 24px;
+        box-shadow: 0px 6px 50px 0px  rgba(14, 14, 14, 0.15);
+        }
+        .end-p{
+        margin-top: 42px;
+        }
+        .profiles{
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        justify-content: space-around;
+        }
+        .fb{
+        width: 24px;
+        height: 24px;
+        margin-right: 50px;
+        }
+        .fb:hover{
+        background-color: grey;
+        }
+        .insta{
+        height: 24px;
+        width: 24px;
+        margin-right: 50px;
+        }
+        .insta:hover{
+        background-color: grey;
+        }
+        .x{
+        width: 26.55px;
+        height: 24px;
+        margin-right: 50px;
+        }
+        .x:hover{
+        background-color: grey;
+        }
+      
