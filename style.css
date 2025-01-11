@@ -1,0 +1,76 @@
+.fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+   font-size: 32;
+    font-style:normal;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 150px;
+    position: absolute;
+    width:1600px;
+    /* height: 100px; */
+    left: 0px;
+    top: 0px;
+    /* background-color: aliceblue; */
+  
+    
+  }
+.bdtitle2{
+   height: 38px;
+   font-size: larger;
+}
+.signbtn{
+margin: 0 auto;
+width: 116px;
+height: 52px;
+border: 1px solid #006A50;
+border-radius: 8px;
+color: #006A50;
+
+} 
+.bdidea{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 80px 100px;
+gap: 64px;
+width: 1280px;
+height: 500px;
+ 
+border-radius: 24px;
+background-color: #006A50;
+
+}
+.bannerdiv{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 622px;
+height: 326px;
+}
+.bd2idea{
+width: 622px;
+height: 29px;
+font-weight: 500;
+font-size: 24px;
+color: rgba(14, 14, 14, 0.5);
+}
+.ideapara{
+  font-size: 50px;
+}
+.explorebtn{
+  background-color: #0b4f0d;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
