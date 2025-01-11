@@ -1,4 +1,11 @@
-/* nav styles */
+
+.Fira-sans {
+  font-family: "Fira-sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+  }
+
 .nav-title{
   font-weight: bold;
   font-size: 32px;
@@ -30,16 +37,9 @@ margin-left: 90px;
 margin-right: 90px;
 }
 
-.Fira-sans {
-font-family: "Fira-sans", serif;
-font-optical-sizing: auto;
-font-weight: 500px;
-font-style: normal;
-}
 body{
 background-color: rgba(255, 255, 255, 1);
 }
-/* banner styles */
 .banner{
 width: 1280px;
 height: 560px;
@@ -50,7 +50,6 @@ border-radius: 24px;
 .bnr-dtl{
 width: 622px;
 height: 326px;
-display: ;
 text-align: left;
 padding-top: 60px;
 padding-bottom: 150px;
@@ -87,7 +86,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-/* pillar styles */
 .pillar-h{
 font-size: 40px;
 font-weight: bold;
@@ -142,3 +140,91 @@ color: rgba(14, 14, 14, 0.7);
 display: flex;
 align-items: center;
 }
+.sub-sec{
+  display: flex;
+  align-items: center ;
+  }
+  .sub-sec-1{
+  margin-top: 32px;
+  width: 410px;
+  height: 325px;
+  padding: 32px;
+  align-items: center;
+  background-color: rgba(84, 144, 245, 0.2);
+  border-radius: 16px;
+  border: 10px;
+  box-shadow: 0px 6px 50px 0px  rgba(14, 14, 14, 0.15);
+  margin-right: 24px;
+  }
+  .sub-sec-1:hover{
+  background-color: rgba(255, 247, 223, 1);
+  }
+  .sub-sec-2{
+  margin-top: 32px;
+  width: 410px;
+  height: 325px;
+  padding: 32px;
+  align-items: center;
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 16px;
+  border: 10px;
+  box-shadow: 0px 6px 50px 0px  rgba(14, 14, 14, 0.15);
+  margin-right: 24px;
+  }
+  .sub-sec-2:hover{
+  background-color:chocolate;
+  }
+  .sub-sec-3{
+  margin-top: 32px;
+  width: 410px;
+  height: 325px;
+  padding: 32px;
+  align-items: center;
+  background-color: rgb(233, 100, 24);
+  border-radius: 16px;
+  border: 10px;
+  box-shadow: 0px 6px 50px 0px  rgba(14, 14, 14, 0.15);
+  margin-right: 24px;
+  }
+  .sub-sec-3:hover{
+  background-color: rgba(235, 75, 12, 0.2);
+  }
+  .btn-sec-3{
+  
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600px;
+  background-color: rgb(40, 167, 47);
+  border: none;
+  }
+  .btn-sec-1:hover{
+  background-color: rgb(69, 56, 56);
+  }
+  .btn-sec-2:hover{
+  background-color: rgb(82, 71, 71);
+  }
+  .btn-sec-3:hover{
+  background-color: rgb(84, 72, 72);
+  }
+  .btn-sec-2{
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600px;
+  background-color: rgb(29, 203, 87);
+  border: none;
+  }
+  .btn-sec-1{
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600px;
+  background-color: rgb(66, 158, 90);
+  align-items: center;
+  text-align: center;
+  border: none;
+  }
